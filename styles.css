@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+
+ đautrang {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+ đautrang .img{
+ margin-right: 20%;
+}
+.menu ul {
+  height: 50px;
+  background-color: rgb(224, 115, 48);
+}
+.menu ul li {
+  position: relative;
+  display: inline-block;
+}
+.menu ul li a {
+  text-decoration: none;
+  line-height: 50px;
+  padding: 0 15px;
+  display: block;
+  color: rgb(255, 253, 253);
+  font-size: 17px;
+}
+.menu ul li:hover {
+  background-color: rgb(108, 167, 235);
+}
+
+.noidung .header{
+  width: 100%;
+  height: 300px;
+}
+.noidung .header img{
+  height: 300px;
+}
+.noidung {
+  width: 100%;
+  height: 800px;
+}
+.noidung2 {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: block;
+  height: 900px;
+}
+.noidung .sanpham {
+  float: left;
+  width: 100%;
+  height: 400px;
+  background-color: #ffffff;
+}
+.sanpham .sanphams {
+  margin-top: 30px;
+  float: left;
+  width: 40%;
+  height: 100%;
+  margin-left: 5%;
+  border-radius: 5px;
+  background: #ffffff;
+  border: solid #8b8b8b 0.5px;
+}
+
+.sanphams .thongsosp{
+  float: left;
+  width: 50%;
+  height: 80%;
+}
+.thongsosp .tssp {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.sanphams .hinhanhsp {
+  float: left;
+  width: 50%;
+  height: 80%;
+}
+
+.sanphams .giasp {
+  float: left;
+  width: 50%;
+  height: 20%;
+}
+
+.giasp .price{
+  margin-left: 20px;
+  height: 50%;
+  width: 80% ;
+  background-color: #db9797;
+}
+
+.price .price1 {
+  float: left;
+  width: 40%;
+  height: 100%;
+  background-color: red;
+  text-align: center;
+}
+.price .price2 {
+  float: left;
+  width: 60%;
+  height: 100%;
+  background-color: rgb(217, 206, 206);
+  text-align: center;
+  color: rgb(236, 103, 103);
+  font-size: 20px;
+}
+.sanphams .themvaogiohang {
+  float: left;
+  width: 50%;
+  height: 20%;
+}
+.sanphams .themvgh{
+  width: 80%;
+  height: 60%;
+}
+.sanphams .themvgh button{
+  margin-left: 20px;
+  width: 75%;
+  height: 80%;
+  font-size: 20px;
+  color: rgb(187, 112, 112);
+  background-color: #635a5a;
+}
+.sanphams .themvgh button:hover{
+  color: rgb(221, 77, 77);
+  background-color: #121212;
+}
+
+.cuoitrang {
+  clear: both;
+  height: 300px;
+  width: 100%;
+  background-color: #6d6969
+}
+.cuoitrang .left {
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 30%;
+  height: 50%;
+}
+
+.cuoitrang .left .logo{
+  float: left;
+  height: 30%;
+  width: 70%;
+  background-color: #ffffff;
+}
+.cuoitrang .right {
+  float: left;
+  height: 70%;
+  width: 50%;
+}
+.cuoitrang .right p{
+  width: 100%;
+  margin-top: 20px;
+}
+.cuoitrang .right img{
+  width: 30%;
+  margin-top: 20px;
+}
+
+.cuoitrang .ctrang{
+  height: 50%;
+  width: 100%;
+  float: left;
+  color: #ffffff;
+}
+.cuoitrang .ctrang p{
+  margin-left: 10px;
+  height: 50%;
+  width: 100%;
+  float: left;
+}
+
